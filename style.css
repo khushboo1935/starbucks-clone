@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+}
+body{
+    background-color: #FAF6EE;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 60%;
+    display: flex;
+ box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.07);
+-webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.07);
+-moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.07);
+}
+ol{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img{
+        height: 43px;
+        padding-left:75px;
+    }
+    li{
+        font-weight: 100;
+    }
+}
+ol:nth-child(2){
+    height: 100%;
+    width: 45%;
+    img{
+        height: 37%;
+    }
+}
+.input-box{
+    height: 35px;
+    width: 250px;
+    box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.10);
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    input{
+       
+        height: 100%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+::placeholder{
+     width: 100%;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+   
+}
+ img{
+    height: 70%;
+    
+ }  
+}
+header{
+    height: 100px;
+    background-color: white;
+     
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+        padding-left: 100px;
+    }
+}
+main{
+    height: 500px;
+    background-color: #FAF6EE;
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #13775b;
+    border-radius: 10px;
+    border: 1px solid  #FAF6EE;
+}
+#leaf1{
+position: absolute;
+top: -30px;
+left: 0px;
+}
+#leaf2{
+position: absolute;
+bottom: 0;
+right: 0;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help-box{
+    height: 40%;
+    width: 83%;
+    padding-inline: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+.sub-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    p{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    i{
+        color: #00754A;
+        font-size: 20px;
+    }
+}
+footer{
+    height: 120vh;
+    background-color: #0E382C;
+}
+section{
+    height: 175px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 0px 0px;
+}
+.center{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.circle {
+     height: 202px;
+    width: 202px ;
+    border: 5px solid #CBA258;
+    border-radius: 50%;
+    background-image: url("https://www.starbucks.in/assets/images/profileDP.svg");
+    background-position: center;
+    background-size: 97%;
+}
+.text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}   
+.text-section button{
+    height: 37px;
+    width: 180px;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    a{
+        color: white;
+    }
+}
+
+footer{
+height: 1000px;
+width: 100%;
+color: white;
+.footer-section{
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: #0E382C;
+    align-items: start;
+        list-style: none;
+        padding: 100px;
+        padding-right: -20px;
+        h2{
+            font-size: 18px;
+        }
+    ul{
+        list-style: none;
+        gap: 20px;
+        li{
+            font-size: 14px;
+            gap: 20px;
+            font-weight: 100;
+            line-height: 25px;          
+        }
+    }
+    .about{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        gap: 20px;
+    }
+}
+}
+.social-section{
+    height: 124px;
+    width: 380px;
+     background-color: #0E382C;
+     justify-content: space-evenly;
+     flex-direction: row;
+     padding-top: 150px;
+     padding-left: 50px;
+     .media{
+        height: 124px;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: start;
+        padding: 20px;
+       padding-bottom: 130px;
+       padding-right: 40px;
+        flex-direction: column;
+        gap: 20px;
+        .icons{
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 20px;
+        }
+     .h4{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+}
+}
+.down-footer-section{
+    background-color: #0E382C;
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    ul{
+        list-style: none;
+        gap: 20px;
+        li{
+            font-size: 14px;
+            gap: 20px;
+            font-weight: 100;
+            line-height: 25px;
+        }
+    }
+    .rights{
+        height: 10%;
+        width: 50%;
+        font-size: 9.6px;
+      justify-content:end;
+        align-items: end;
+    }
+.links{
+    height: 10%;
+    width: 90%;
+    display: inline;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 200px;
+    border-top: 1px solid silver;
+ul{
+    li{
+        gap: 25px;
+    }
+}
+}
+
+}
